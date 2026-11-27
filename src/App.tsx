@@ -1,13 +1,15 @@
-import Counter from "./component/counter/Counter";
-import { Button } from "./components/ui/button";
+
+import { TodoCom } from "./pages/todo/TodoCom";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      {/* <h1 className="text-3xl font-bold underline">Hello world!</h1>
       <Button>Click me</Button>
       <Button>Click me</Button>
-      <Counter/>
+      <Counter/> */}
+      <TodoCom/>
+
     </>
   );
 }
